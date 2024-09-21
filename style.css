@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #303030;
+    padding: 6px;
+    color: antiquewhite;
+    display: grid;
+    text-align: center;
+}
+
+img {
+    padding: 20px;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+.card {
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 18px;
+    border-radius: 11px;
+}
+
+.form {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: 0;
+    padding: 11px;
+    color: aliceblue;
+    background-color: #303030;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.conteudo {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th {
+    color: #ccc;
+    background-color: #303030;
+    padding: 1px;
+}
+
+table td {
+    padding: 1px;
+}
+
+table td img {
+    width: 20px;
+}
+
+/* Estilização mobile */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .card {
+        padding: 10px;
+        margin-top: 8px;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    table td img {
+        width: 30px;
+    }
+
+    table th, table td {
+        font-size: 14px;
+        padding: 5px;
+    }
+}

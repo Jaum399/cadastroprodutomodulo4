@@ -1,0 +1,51 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+    <header>
+        <img src="/imagens/LOGO.jpeg" alt="" width="100px" >
+        <h1>Controle de Produtos</h1>
+    </header>
+    <main>
+        <h2>Titulo de Produto</h2>
+        <span>Lista de Produtos</span>
+        <div class="card">
+            <div class="form">
+                <label for="">Nome do Produto</label>
+                <input type="text" id="nome" placeholder="nome produto">
+            </div>
+            <div class="form" >
+                <label for="">Preço </label>
+                <input type="text" id="preco" placeholder="R$00.00">
+            </div>
+            <button onclick="produto.Adiciona()">Adicionar</button>
+            <button onclick="produto.remover()">Remover</button>
+
+
+        </div>
+        <div class="conteudo">
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Remover</th>
+                </thead>
+                <tbody id="tbody">
+                   
+                </tbody>
+                
+            </table>
+        </div>
+    </main>
+
+    <script src="Cadastro.js">
+
+    </script>
+
+</body>
+</html>
